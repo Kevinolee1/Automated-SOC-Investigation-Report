@@ -4,14 +4,14 @@ Built a Python automation tool that generates a SOC investigation report contain
 Add "from datetime import datetime" import near the top of main.py
 
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e69e4e91c798fed454dd908a91f8048a8797fb5b/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153023.png)
-Add the following function below  above the section where the script asks for the IOC.
+Add the following function above the section where the script asks for the IOC.
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e7319085f83e9dcad9863415a4582b10385771aa/Screenshot%202026-08-31%20170123.png)
 
 
 
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/164c12a361a94ccb0d2973c55e06c0cfc8d64276/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153501.png)
 
-Find this section below
+Locate the following IP Address section in main.py:
 ![image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/c1540657dc38ccc97275e6f0e222dfedb49a661e/Screenshot%202026-08-31%20170524.png)
 
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/60511cfd30e06169a60b5b95334652ec1494e0cd/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153614.png)
@@ -22,7 +22,9 @@ Find this section below
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/025cd38aa4245acc89adfc83b8a0eb5595849003/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20154012.png)
 
 Open PowerShell and run:python main.py
+
 When prompted, enter the test IOC: 8.8.8.8
+
 The output should be similar to
 
     
@@ -61,3 +63,5 @@ Risk Level: LOW
 SOC Investigation Report
 ------------------------
 Report saved: reports/SOC_Report_8_8_8_8_2026-08-31_15-39-04.txt
+
+Skills Demonstrated: Python • SOC Automation • VirusTotal API • AbuseIPDB API • Threat Intelligence • IOC Analysis • Risk Assessment • SOC Reporting
