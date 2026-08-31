@@ -87,6 +87,7 @@ Results should be validated by a security analyst before taking response actions
     print("SOC Investigation Report")
     print("------------------------")
     print(f"Report saved: {filename}")
+![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/164c12a361a94ccb0d2973c55e06c0cfc8d64276/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153501.png)
 
     Find this section 
     elif ioc_type == "IP Address":
