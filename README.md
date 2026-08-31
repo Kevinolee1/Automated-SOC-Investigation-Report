@@ -29,18 +29,21 @@ def generate_soc_report(
     filename = f"reports/SOC_Report_{safe_ioc}_{timestamp}.txt"
 
     if risk_level == "LOW":
+    
         assessment = (
             "Threat intelligence results indicate a low-risk IOC. "
             "No significant malicious indicators were identified."
         )
 
     elif risk_level == "MEDIUM":
+    
         assessment = (
             "Threat intelligence identified potentially suspicious activity. "
             "Additional investigation is recommended."
         )
 
     elif risk_level == "HIGH":
+    
         assessment = (
             "Multiple threat intelligence indicators suggest malicious activity. "
             "Escalation and additional investigation are recommended."
@@ -53,6 +56,7 @@ def generate_soc_report(
         )
 
     report = f"""
+    
 SOC IOC INVESTIGATION REPORT
 ============================
 
