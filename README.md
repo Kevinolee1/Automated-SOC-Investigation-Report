@@ -7,8 +7,6 @@ Add "from datetime import datetime" import near the top of main.py
 Add the following function below  above the section where the script asks for the IOC.
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/8e1597cf3fdc540e22759ff6acc053a6d9c40ffd/README.md)
 
-![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/8e1597cf3fdc540e22759ff6acc053a6d9c40ffd/Screenshot%202026-08-31%20170123.png)
-
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/164c12a361a94ccb0d2973c55e06c0cfc8d64276/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153501.png)
 
     Find this section 
