@@ -15,32 +15,9 @@ Find this section below
 ![image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/c1540657dc38ccc97275e6f0e222dfedb49a661e/Screenshot%202026-08-31%20170524.png)
 
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/60511cfd30e06169a60b5b95334652ec1494e0cd/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153614.png)
-    Change it to this
-
-    elif ioc_type == "IP Address":
-    vt_malicious, vt_suspicious = investigate_ip(ioc)
-
-    abuse_score = investigate_ip_abuseipdb(ioc)
-
-    risk_level = calculate_risk(
-        vt_malicious,
-        vt_suspicious,
-        abuse_score
-    )
-
-    print()
-    print("SOC Risk Assessment")
-    print("-------------------")
-    print(f"Risk Level: {risk_level}")
-
-    generate_soc_report(
-        ioc,
-        ioc_type,
-        vt_malicious,
-        vt_suspicious,
-        abuse_score,
-        risk_level
-    )
+    Change it to this below
+![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/9dbff1c29d1c5978b51ec572801a3534dc612265/Screenshot%202026-08-31%20170737.png)
+    
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e56a6f30e77ec8de5a51cf675f95c22652691efc/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153946.png)
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/025cd38aa4245acc89adfc83b8a0eb5595849003/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20154012.png)
 
