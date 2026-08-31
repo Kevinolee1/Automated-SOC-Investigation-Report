@@ -7,12 +7,18 @@ Add "from datetime import datetime" import near the top of main.py
 Add the following function above the section where the script asks for the IOC.
 
 def generate_soc_report(
+    
     ioc,
     ioc_type,
+    
     vt_malicious,
+    
     vt_suspicious,
+    
     abuse_score,
+    
     risk_level
+    
 ):
     os.makedirs("reports", exist_ok=True)
 
