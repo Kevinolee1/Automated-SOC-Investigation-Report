@@ -3,7 +3,9 @@ Built a Python tool that automatically generates and saves a SOC investigation r
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/52afcc97886dee6a3ba145c1ff163f8514102983/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20152454.png)
 Add "from datetime import datetime" import near the top of main.py
 
-Add this function above the section where you ask for the IOC
+![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e69e4e91c798fed454dd908a91f8048a8797fb5b/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153023.png)
+Add this function below above the section where you ask for the IOC
+
 def generate_soc_report(
     ioc,
     ioc_type,
