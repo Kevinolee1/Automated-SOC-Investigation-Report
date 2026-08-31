@@ -1,10 +1,10 @@
 # Automated-SOC-Investigation-Report
-Built a Python tool that automatically generates and saves a SOC investigation report containing IOC details, threat intelligence findings, risk level, analyst assessment, and recommended disposition.
+Built a Python automation tool that generates a SOC investigation report containing IOC details, VirusTotal and AbuseIPDB findings, automated risk scoring, analyst assessment, and recommended disposition.
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/52afcc97886dee6a3ba145c1ff163f8514102983/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20152454.png)
 Add "from datetime import datetime" import near the top of main.py
 
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e69e4e91c798fed454dd908a91f8048a8797fb5b/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153023.png)
-Add this function below above the section where you ask for the IOC
+Add the following function above the section where the script asks for the IOC.
 
 def generate_soc_report(
     ioc,
@@ -135,8 +135,8 @@ Results should be validated by a security analyst before taking response actions
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e56a6f30e77ec8de5a51cf675f95c22652691efc/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153946.png)
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/025cd38aa4245acc89adfc83b8a0eb5595849003/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20154012.png)
 
-Go to Powershell to type python main.py and press enter
-For enter IOC to investigate use 8.8.8.8
+Open PowerShell and run:python main.py
+When prompted, enter the test IOC: 8.8.8.8
 The output should be similar to
 
     
