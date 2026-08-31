@@ -1,6 +1,6 @@
 # Automated-SOC-Investigation-Report
 Built a Python tool that automatically generates and saves a SOC investigation report containing IOC details, threat intelligence findings, risk level, analyst assessment, and recommended disposition.
-
+![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/52afcc97886dee6a3ba145c1ff163f8514102983/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20152454.png)
 Add "from datetime import datetime" import near the top of main.py
 
 Add this function above the section where you ask for the IOC
