@@ -132,7 +132,7 @@ Results should be validated by a security analyst before taking response actions
         abuse_score,
         risk_level
     )
-
+![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e56a6f30e77ec8de5a51cf675f95c22652691efc/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153946.png)
     Go to Powershell to type python main.py and press enter
     For enter IOC to investigate use 8.8.8.8
     The output should be similar to
