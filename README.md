@@ -11,22 +11,9 @@ Add the following function below  above the section where the script asks for th
 
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/164c12a361a94ccb0d2973c55e06c0cfc8d64276/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153501.png)
 
-    Find this section 
-    elif ioc_type == "IP Address":
-    vt_malicious, vt_suspicious = investigate_ip(ioc)
+Find this section below
+![image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/c1540657dc38ccc97275e6f0e222dfedb49a661e/Screenshot%202026-08-31%20170524.png)
 
-    abuse_score = investigate_ip_abuseipdb(ioc)
-
-    risk_level = calculate_risk(
-        vt_malicious,
-        vt_suspicious,
-        abuse_score
-    )
-
-    print()
-    print("SOC Risk Assessment")
-    print("-------------------")
-    print(f"Risk Level: {risk_level}")
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/60511cfd30e06169a60b5b95334652ec1494e0cd/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153614.png)
     Change it to this
 
