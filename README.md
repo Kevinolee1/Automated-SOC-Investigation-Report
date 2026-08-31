@@ -13,9 +13,9 @@ Add the following function above the section where the script asks for the IOC.
 
 Locate the following IP Address section in main.py:
 ![image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/c1540657dc38ccc97275e6f0e222dfedb49a661e/Screenshot%202026-08-31%20170524.png)
-
+Change it to this below
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/60511cfd30e06169a60b5b95334652ec1494e0cd/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153614.png)
-    Change it to this below
+    
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/9dbff1c29d1c5978b51ec572801a3534dc612265/Screenshot%202026-08-31%20170737.png)
     
 ![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/e56a6f30e77ec8de5a51cf675f95c22652691efc/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153946.png)
