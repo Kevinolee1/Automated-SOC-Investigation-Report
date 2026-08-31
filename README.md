@@ -105,7 +105,7 @@ Results should be validated by a security analyst before taking response actions
     print("SOC Risk Assessment")
     print("-------------------")
     print(f"Risk Level: {risk_level}")
-
+![Image alt](https://github.com/Kevinolee1/Automated-SOC-Investigation-Report/blob/60511cfd30e06169a60b5b95334652ec1494e0cd/Automated-SOC-Investigation-Report/Screenshot%202026-08-31%20153614.png)
     Change it to this
 
     elif ioc_type == "IP Address":
