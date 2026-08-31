@@ -20,8 +20,7 @@ def generate_soc_report(
     risk_level
     
 ):
-    
-    os.makedirs("reports", exist_ok=True)
+     os.makedirs("reports", exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
